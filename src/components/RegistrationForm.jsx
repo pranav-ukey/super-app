@@ -70,7 +70,7 @@ const RegistrationForm = () => {
           value={formData.name}
           onChange={handleChange}
           className={`w-full h-14 px-5 bg-[#1e1e1e] text-white text-base rounded-[4px] placeholder:text-[#555] outline-none ${
-            errors.name ? "border-l-2 border-l-red-500" : ""
+            errors.name ? "border-1 border-red-500" : ""
           }`}
         />
         {errors.name && <p className="text-red-500 text-sm px-1 mb-1">{errors.name}</p>}
@@ -82,7 +82,7 @@ const RegistrationForm = () => {
           value={formData.username}
           onChange={handleChange}
           className={`w-full h-14 px-5 bg-[#1e1e1e] text-white text-base rounded-[4px] placeholder:text-[#555] outline-none ${
-            errors.username ? "border-l-2 border-l-red-500" : ""
+            errors.username ? "border-1 border-red-500" : ""
           }`}
         />
         {errors.username && <p className="text-red-500 text-sm px-1 mb-1">{errors.username}</p>}
@@ -94,7 +94,7 @@ const RegistrationForm = () => {
           value={formData.email}
           onChange={handleChange}
           className={`w-full h-14 px-5 bg-[#1e1e1e] text-white text-base rounded-[4px] placeholder:text-[#555] outline-none ${
-            errors.email ? "border-l-2 border-l-red-500" : ""
+            errors.email ? "border-1 border-red-500" : ""
           }`}
         />
         {errors.email && <p className="text-red-500 text-sm px-1 mb-1">{errors.email}</p>}
@@ -106,7 +106,7 @@ const RegistrationForm = () => {
           value={formData.mobile}
           onChange={handleChange}
           className={`w-full h-14 px-5 bg-[#1e1e1e] text-white text-base rounded-[4px] placeholder:text-[#555] outline-none ${
-            errors.mobile ? "border-l-2 border-l-red-500" : ""
+            errors.mobile ? "border-1 border-red-500" : ""
           }`}
         />
         {errors.mobile && <p className="text-red-500 text-sm px-1 mb-1">{errors.mobile}</p>}
