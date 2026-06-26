@@ -69,7 +69,7 @@ const RegistrationForm = () => {
           placeholder="Name"
           value={formData.name}
           onChange={handleChange}
-          className={`w-full h-14 px-5 bg-[#1e1e1e] text-white text-base placeholder:text-[#555] outline-none ${
+          className={`w-full h-14 px-5 bg-[#1e1e1e] text-white text-base rounded-[4px] placeholder:text-[#555] outline-none ${
             errors.name ? "border-l-2 border-l-red-500" : ""
           }`}
         />
@@ -81,7 +81,7 @@ const RegistrationForm = () => {
           placeholder="UserName"
           value={formData.username}
           onChange={handleChange}
-          className={`w-full h-14 px-5 bg-[#1e1e1e] text-white text-base placeholder:text-[#555] outline-none ${
+          className={`w-full h-14 px-5 bg-[#1e1e1e] text-white text-base rounded-[4px] placeholder:text-[#555] outline-none ${
             errors.username ? "border-l-2 border-l-red-500" : ""
           }`}
         />
@@ -93,7 +93,7 @@ const RegistrationForm = () => {
           placeholder="Email"
           value={formData.email}
           onChange={handleChange}
-          className={`w-full h-14 px-5 bg-[#1e1e1e] text-white text-base placeholder:text-[#555] outline-none ${
+          className={`w-full h-14 px-5 bg-[#1e1e1e] text-white text-base rounded-[4px] placeholder:text-[#555] outline-none ${
             errors.email ? "border-l-2 border-l-red-500" : ""
           }`}
         />
@@ -105,7 +105,7 @@ const RegistrationForm = () => {
           placeholder="Mobile"
           value={formData.mobile}
           onChange={handleChange}
-          className={`w-full h-14 px-5 bg-[#1e1e1e] text-white text-base placeholder:text-[#555] outline-none ${
+          className={`w-full h-14 px-5 bg-[#1e1e1e] text-white text-base rounded-[4px] placeholder:text-[#555] outline-none ${
             errors.mobile ? "border-l-2 border-l-red-500" : ""
           }`}
         />
@@ -135,7 +135,7 @@ const RegistrationForm = () => {
       {/* Button */}
       <button
         type="submit"
-        className="w-full h-14 mt-5 rounded-full bg-[#72DB73] text-white text-2xl font-bold tracking-widest hover:scale-[1.02] transition-all duration-200"
+        className="w-full h-12 mt-5 rounded-full bg-[#72DB73] text-white text-2xl font-bold tracking-widest hover:scale-[1.02] transition-all duration-200"
       >
         SIGN UP
       </button>
